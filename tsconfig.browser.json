@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
+    "target": "es5",
+    "module": "es2015",
     "declaration": true,
     "removeComments": false,
     "noImplicitAny": false,
-    "outDir": "dist/",
-    "lib": ["esnext"],
+    "outDir": "./dist.browser",
+    "baseUrl": ".",
+    "lib": ["dom", "esnext"],
     "moduleResolution": "node"
   },
   "include": ["./src/**/*"]

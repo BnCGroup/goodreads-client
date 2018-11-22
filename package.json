@@ -8,12 +8,12 @@
     "lint": "prettier -l '**/!(*.d).{ts,tsx}' && tslint --project tsconfig.json"
   },
   "dependencies": {
-    "oauth": "^0.9.15",
+    "browser-or-node": "^1.1.0",
+    "oauth-1.0a": "^2.2.5",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "@types/node": "^8.0.57",
-    "@types/oauth": "^0.9.1",
     "@types/xml2js": "^0.4.3",
     "precise-commits": "^1.0.2",
     "prettier": "1.15.1",
